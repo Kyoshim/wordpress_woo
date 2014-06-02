@@ -8,6 +8,11 @@
         <?php wp_get_archives('type=monthly'); ?>
     </ul>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+    <?php dynamic_sidebar(); ?>
+>>>>>>> FETCH_HEAD
 =======
 
     <?php dynamic_sidebar(); ?>
