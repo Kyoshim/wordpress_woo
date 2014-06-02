@@ -7,6 +7,14 @@
 </head>
 <body>
 <header>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Optional theme -->
+    <link rel="css/bootstrap-theme.min.css">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="css/bootstrap.min.js"></script>
+
     <?php if (is_single()) : ?>
         <p><a href="<?php bloginfo('home'); ?>"><?php bloginfo('name'); ?></a></p>
         <p><?php bloginfo('description'); ?></p>
