@@ -1,12 +1,9 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <title>Manga World</title>
-    <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css">
-</head>
-<body>
-<h1>Bienvenue sur le site <?php bloginfo('name'); ?></h1>
-<p><?php bloginfo('description'); ?></p>
-</body>
-</html>
+
+<?php get_header(); ?>
+<div class="main">
+    <?php get_template_part('loop'); ?>
+    <?php previous_posts_link(); ?>
+    <?php next_posts_link(); ?>
+</div>
+<?php get_sidebar(); ?>
+<?php get_footer(); ?>
