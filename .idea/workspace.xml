@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63a1eda1-2eee-46f3-bc54-ff00767a42c8" name="Default" comment="">
+<<<<<<< HEAD
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/manga_world/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/manga_world/functions.php" />
+>>>>>>> ca4238af708c7e8405bbc26e9e247f8a16622669
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="wordpress_woo.iws" />
@@ -46,16 +50,7 @@
       <file leaf-file-name="sidebar.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/manga_world/sidebar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="16" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="425">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
+            <state line="8" column="9" selection-start="286" selection-end="286" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="255">
               <folding />
             </state>
           </provider>
@@ -64,7 +59,7 @@
       <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/manga_world/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="9" selection-start="736" selection-end="736" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="493">
+            <state line="16" column="0" selection-start="727" selection-end="727" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="493">
               <folding />
             </state>
           </provider>
@@ -79,10 +74,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="functions.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="functions.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/manga_world/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="493">
+            <state line="11" column="33" selection-start="371" selection-end="371" vertical-scroll-proportion="0.32864675" vertical-offset="0" max-vertical-offset="569">
               <folding />
             </state>
           </provider>
@@ -111,9 +106,8 @@
         <option value="$PROJECT_DIR$/wp-content/themes/manga_world/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/manga_world/index.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/manga_world/footer.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/manga_world/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/manga_world/sidebar.php" />
-        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/wp-content/themes/manga_world/functions.php" />
       </list>
     </option>
   </component>
@@ -121,8 +115,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1616" />
-    <option name="height" value="876" />
+    <option name="width" value="1382" />
+    <option name="height" value="754" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -150,7 +144,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -223,8 +216,35 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wordpress_woo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wordpress_woo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manga_world" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -269,23 +289,23 @@
       <created>1401697555714</created>
       <updated>1401697555714</updated>
     </task>
-    <task id="LOCAL-00005" summary="Thème Structure">
-      <created>1401699022857</created>
-      <updated>1401699022857</updated>
+    <task id="LOCAL-00005" summary="Sidebar">
+      <created>1401707107166</created>
+      <updated>1401707107166</updated>
     </task>
-    <task id="LOCAL-00006" summary="Thème Structure">
-      <created>1401699102448</created>
-      <updated>1401699102448</updated>
-    </task>
+<<<<<<< HEAD
     <task id="LOCAL-00007" summary="gitignore">
       <created>1401707009143</created>
       <updated>1401707009143</updated>
     </task>
     <option name="localTasksCounter" value="8" />
+=======
+    <option name="localTasksCounter" value="6" />
+>>>>>>> ca4238af708c7e8405bbc26e9e247f8a16622669
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -294,7 +314,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25609756" sideWeight="0.6714976" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.6714976" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -302,17 +322,15 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32850242" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
+=======
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+>>>>>>> ca4238af708c7e8405bbc26e9e247f8a16622669
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
-  </component>
-  <component name="Vcs.Log.UiProperties">
-    <option name="RECENTLY_FILTERED_USER_GROUPS">
-      <collection />
-    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -324,44 +342,21 @@
     <MESSAGE value="Thème Rises !!" />
     <MESSAGE value="Thème Rises Fin !!" />
     <MESSAGE value="Thème Structure" />
+<<<<<<< HEAD
     <MESSAGE value="gitignore" />
     <option name="LAST_COMMIT_MESSAGE" value="gitignore" />
+=======
+    <MESSAGE value="Sidebar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sidebar" />
+>>>>>>> ca4238af708c7e8405bbc26e9e247f8a16622669
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="29" selection-start="1859" selection-end="1859" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1768">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/manga_world/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="23" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="255">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/manga_world/sidebar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="16" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="425">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="19" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="119">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/manga_world/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="9" selection-start="736" selection-end="736" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="493">
+        <state line="16" column="0" selection-start="727" selection-end="727" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="493">
           <folding />
         </state>
       </provider>
@@ -396,14 +391,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/manga_world/sidebar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="6" selection-start="293" selection-end="293" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="255">
+        <state line="9" column="0" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="289">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/manga_world/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="9" selection-start="549" selection-end="549" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="374">
+        <state line="16" column="0" selection-start="479" selection-end="479" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="510">
           <folding />
         </state>
       </provider>
@@ -417,7 +412,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/manga_world/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="136">
+        <state line="2" column="0" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="306">
           <folding />
         </state>
       </provider>
@@ -434,20 +429,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/manga_world/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="9" selection-start="736" selection-end="736" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="493">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/manga_world/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="136">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/manga_world/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="7" selection-start="150" selection-end="150" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="187">
@@ -462,16 +443,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/manga_world/sidebar.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/manga_world/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="16" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="425">
+        <state line="16" column="0" selection-start="727" selection-end="727" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="493">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/manga_world/sidebar.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
+        <state line="8" column="9" selection-start="286" selection-end="286" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/manga_world/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="33" selection-start="371" selection-end="371" vertical-scroll-proportion="0.32864675" vertical-offset="0" max-vertical-offset="569">
           <folding />
         </state>
       </provider>
