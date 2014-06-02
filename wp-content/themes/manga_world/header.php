@@ -7,6 +7,11 @@
 </head>
 <body>
 <header>
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> FETCH_HEAD
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -15,6 +20,10 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="css/bootstrap.min.js"></script>
 
+<<<<<<< HEAD
+>>>>>>> FETCH_HEAD
+=======
+>>>>>>> FETCH_HEAD
     <?php if (is_single()) : ?>
         <p><a href="<?php bloginfo('home'); ?>"><?php bloginfo('name'); ?></a></p>
         <p><?php bloginfo('description'); ?></p>
