@@ -7,14 +7,9 @@
     <ul class="list">
         <?php wp_get_archives('type=monthly'); ?>
     </ul>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-    <?php dynamic_sidebar(); ?>
->>>>>>> FETCH_HEAD
-=======
-
-    <?php dynamic_sidebar(); ?>
->>>>>>> FETCH_HEAD
+    <?php if ( is_active_sidebar( 'sidebar-1' ) ) : ?>
+        <div id="primary-sidebar" class="test primary-sidebar widget-area" role="complementary">
+            <?php dynamic_sidebar( 'sidebar-1' ); ?>
+        </div><!-- #primary-sidebar -->
+    <?php endif; ?>
 </div>
