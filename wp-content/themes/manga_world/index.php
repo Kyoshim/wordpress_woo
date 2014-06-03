@@ -1,4 +1,3 @@
-
 <?php get_header(); ?>
 <div class="main">
     <?php get_template_part('loop'); ?>

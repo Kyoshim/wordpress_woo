@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63a1eda1-2eee-46f3-bc54-ff00767a42c8" name="Default" comment="" />
+    <list default="true" id="63a1eda1-2eee-46f3-bc54-ff00767a42c8" name="Default" comment="Merge branch 'master' of https://github.com/Kyoshim/wordpress_woo&#10;&#10;Conflicts:&#10;&#9;.idea/workspace.xml&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.htaccess" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/manga_world/page.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/manga_world/single.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/manga_world/style.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\wordpress_woo\.idea\.name" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\wordpress_woo\.idea\encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\wordpress_woo\.idea\misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\wordpress_woo\.idea\modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\wordpress_woo\.idea\vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\wamp\www\wordpress_woo\.idea\wordpress_woo.iml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/manga_world/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/manga_world/functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/manga_world/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/manga_world/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/manga_world/index.php" afterPath="$PROJECT_DIR$/wp-content/themes/manga_world/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/manga_world/sidebar.php" afterPath="$PROJECT_DIR$/wp-content/themes/manga_world/sidebar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/manga_world/style.less" afterPath="$PROJECT_DIR$/wp-content/themes/manga_world/style.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="wordpress_woo.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,16 +54,16 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/manga_world/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="23" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="255">
+            <state line="6" column="23" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="238">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sidebar.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="sidebar.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/manga_world/sidebar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="9" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="255">
+            <state line="13" column="9" selection-start="536" selection-end="536" vertical-scroll-proportion="0.3884007" vertical-offset="0" max-vertical-offset="569">
               <folding />
             </state>
           </provider>
@@ -53,7 +72,7 @@
       <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/manga_world/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="727" selection-end="727" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="493">
+            <state line="18" column="0" selection-start="1086" selection-end="1086" vertical-scroll-proportion="-8.807693" vertical-offset="77" max-vertical-offset="646">
               <folding />
             </state>
           </provider>
@@ -62,16 +81,16 @@
       <file leaf-file-name="footer.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/manga_world/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="7" selection-start="150" selection-end="150" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="187">
+            <state line="5" column="7" selection-start="150" selection-end="150" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="187">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="functions.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="functions.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/manga_world/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="33" selection-start="371" selection-end="371" vertical-scroll-proportion="0.32864675" vertical-offset="0" max-vertical-offset="569">
+            <state line="60" column="20" selection-start="1943" selection-end="1943" vertical-scroll-proportion="-10.923077" vertical-offset="736" max-vertical-offset="1292">
               <folding />
             </state>
           </provider>
@@ -297,14 +316,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.6714976" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.6714976" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -413,37 +432,37 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/manga_world/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="7" selection-start="150" selection-end="150" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="187">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/manga_world/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="23" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="255">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/manga_world/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="727" selection-end="727" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="493">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/manga_world/sidebar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="9" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="255">
+        <state line="6" column="23" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="238">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/manga_world/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="33" selection-start="371" selection-end="371" vertical-scroll-proportion="0.32864675" vertical-offset="0" max-vertical-offset="569">
+        <state line="60" column="20" selection-start="1943" selection-end="1943" vertical-scroll-proportion="-10.923077" vertical-offset="736" max-vertical-offset="1292">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/manga_world/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="1086" selection-end="1086" vertical-scroll-proportion="-8.807693" vertical-offset="77" max-vertical-offset="646">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/manga_world/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="7" selection-start="150" selection-end="150" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="187">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/manga_world/sidebar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="9" selection-start="536" selection-end="536" vertical-scroll-proportion="0.3884007" vertical-offset="0" max-vertical-offset="569">
           <folding />
         </state>
       </provider>
