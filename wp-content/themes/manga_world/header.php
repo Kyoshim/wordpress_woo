@@ -16,14 +16,13 @@
 </head>
 <body>
 <header>
-    <?php if (is_single()) : ?>
-        <p><a href="<?php bloginfo('home'); ?>"><?php bloginfo('name'); ?></a></p>
-        <p><?php bloginfo('description'); ?></p>
-    <?php else : ?>
-        <h1><a href="<?php bloginfo('home'); ?>"><?php bloginfo('name'); ?></a></h1>
-        <h2><?php bloginfo('description'); ?></h2>
-    <?php endif; ?>
-
+    <div class="raw">
+        <div class="col-md-offset-5">
+            <div id="logo">
+                <img src="<?php bloginfo('template_directory'); ?>/images/logo.png" alt="" width="150px" height="124px"/>
+            </div>
+        </div>
+    </div>
     <?php wp_nav_menu(array(
         'theme_location'    => 'header_nav',
         'menu_class'        => 'main_menu',
