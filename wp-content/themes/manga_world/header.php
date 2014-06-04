@@ -16,7 +16,7 @@
 </head>
 <body>
 <header>
-    <div class="raw">
+    <div class="row">
         <div class="col-md-offset-5">
             <div id="logo">
                 <img src="<?php bloginfo('template_directory'); ?>/images/logo.png" alt="" width="150px" height="124px"/>
