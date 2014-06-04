@@ -27,7 +27,7 @@
             </div>
             <div class="col-md-2 ">
                 <div id="logo">
-                    <img src="<?php bloginfo('template_directory'); ?>/images/logo.png" alt="" width="150px" height="124px"/>
+                    <a href="<?php echo site_url(); ?>"><img src="<?php bloginfo('template_directory'); ?>/images/logo.png" alt="" width="150px" height="124px"/></a>
                 </div>
             </div>
             <div class="col-md-5">

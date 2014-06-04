@@ -101,6 +101,8 @@ function add_menu(){
 
     register_nav_menu('header_nav_left', 'Menu header left');
     register_nav_menu('header_nav_right', 'Menu header right');
+    register_nav_menu('footer_nav_left', 'Menu footer left');
+    register_nav_menu('footer_nav_right', 'Menu footer right');
     register_nav_menu('ventes', 'Menu ventes');
 
 
