@@ -16,17 +16,29 @@
 </head>
 <body>
 <header>
-    <div class="raw">
-        <div class="col-md-offset-5">
-            <div id="logo">
-                <img src="<?php bloginfo('template_directory'); ?>/images/logo.png" alt="" width="150px" height="124px"/>
+    <div class="main_menu container">
+        <div class="row">
+            <div class="col-md-5">
+                <?php wp_nav_menu(array(
+                    'theme_location'    => 'header_nav_left',
+                    'menu_class'        => 'main_menu_left',
+                    'container'         => false,
+                )); ?>
+            </div>
+            <div class="col-md-2 ">
+                <div id="logo">
+                    <img src="<?php bloginfo('template_directory'); ?>/images/logo.png" alt="" width="150px" height="124px"/>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <?php wp_nav_menu(array(
+                    'theme_location'    => 'header_nav_right',
+                    'menu_class'        => 'main_menu_right',
+                    'container'         => false,
+                )); ?>
             </div>
         </div>
     </div>
-    <?php wp_nav_menu(array(
-        'theme_location'    => 'header_nav',
-        'menu_class'        => 'main_menu',
-        'container'         => false,
-    )); ?>
+
 
 </header>
