@@ -5,20 +5,20 @@ add_action( 'init', 'codex_book_init' );
 
 function codex_book_init() {
     $labels = array(
-        'name'               => _x( 'Books', 'post type general name', 'your-plugin-textdomain' ),
-        'singular_name'      => _x( 'Book', 'post type singular name', 'your-plugin-textdomain' ),
-        'menu_name'          => _x( 'Books', 'admin menu', 'your-plugin-textdomain' ),
-        'name_admin_bar'     => _x( 'Book', 'add new on admin bar', 'your-plugin-textdomain' ),
-        'add_new'            => _x( 'Add New', 'book', 'your-plugin-textdomain' ),
-        'add_new_item'       => __( 'Add New Book', 'your-plugin-textdomain' ),
-        'new_item'           => __( 'New Book', 'your-plugin-textdomain' ),
-        'edit_item'          => __( 'Edit Book', 'your-plugin-textdomain' ),
-        'view_item'          => __( 'View Book', 'your-plugin-textdomain' ),
-        'all_items'          => __( 'All Books', 'your-plugin-textdomain' ),
-        'search_items'       => __( 'Search Books', 'your-plugin-textdomain' ),
-        'parent_item_colon'  => __( 'Parent Books:', 'your-plugin-textdomain' ),
-        'not_found'          => __( 'No books found.', 'your-plugin-textdomain' ),
-        'not_found_in_trash' => __( 'No books found in Trash.', 'your-plugin-textdomain' ),
+        'name'               => _x( 'Members', 'post type general name', 'your-plugin-textdomain' ),
+        'singular_name'      => _x( 'Member', 'post type singular name', 'your-plugin-textdomain' ),
+        'menu_name'          => _x( 'Members', 'admin menu', 'your-plugin-textdomain' ),
+        'name_admin_bar'     => _x( 'Member', 'add new on admin bar', 'your-plugin-textdomain' ),
+        'add_new'            => _x( 'Add New', 'member', 'your-plugin-textdomain' ),
+        'add_new_item'       => __( 'Add New member', 'your-plugin-textdomain' ),
+        'new_item'           => __( 'New Member', 'your-plugin-textdomain' ),
+        'edit_item'          => __( 'Edit Member', 'your-plugin-textdomain' ),
+        'view_item'          => __( 'View Member', 'your-plugin-textdomain' ),
+        'all_items'          => __( 'All Members', 'your-plugin-textdomain' ),
+        'search_items'       => __( 'Search Members', 'your-plugin-textdomain' ),
+        'parent_item_colon'  => __( 'Parent Members:', 'your-plugin-textdomain' ),
+        'not_found'          => __( 'No members found.', 'your-plugin-textdomain' ),
+        'not_found_in_trash' => __( 'No members found in Trash.', 'your-plugin-textdomain' ),
     );
 
     $args = array(
@@ -36,7 +36,7 @@ function codex_book_init() {
         'supports'           => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments' )
     );
 
-    register_post_type( 'book', $args );
+    register_post_type( 'member', $args );
 }
 
 if ( function_exists('register_sidebar') )
@@ -105,4 +105,7 @@ function add_menu(){
 
 }
 add_action( 'after_setup_theme', 'add_menu' );
+
+//remove_action( 'woocommerce_before_shop_loop_item_title', 'woocommerce_show_product_loop_sale_flash', 10 );
+//add_action( 'woocommerce_before_shop_loop_item_title', 'woocommerce_show_product_loop_sale_flash', 9 );
 
