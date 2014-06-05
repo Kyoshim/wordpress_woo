@@ -64,13 +64,14 @@ header {
 
 .content {
   .block_content {
-    height: 200px;
+    height: 280px;
     width: 100%;
     border-radius: 12px;
     border: 1px solid #56bef2;
     border-top: 0px;
     margin-bottom: 10px;
-    h3 {
+    text-align: center;
+    & > h3 {
       color: #ffffff;
       margin-top: 0;
       font-size: 1.3em;
@@ -79,6 +80,40 @@ header {
       padding: 3px 0 0 5px;
       background-color: #56bef2;
       font-weight: bold;
+      text-align: left;
+    }
+    .produits {
+      display: inline-block;
+      margin-right: 80px;
+      &:last-child {
+        margin-right: 0;
+      }
+      p {
+        margin-bottom: 5px;
+      }
+      a {
+        text-decoration: none;
+        color: #1766dc;
+        &:hover {
+          color: #da7b26;
+        }
+      }
+
+      .img-responsive {
+        width: 130px;
+        height: 170px;
+        background-size: cover;
+      }
+      .add-to-cart {
+        background: url("images/bouton_acheter.png") no-repeat center;
+        width: 88px;
+        height: 26px;
+        display: block;
+        margin: auto;
+      }
+      .price {
+        text-align: center;
+      }
     }
   }
   .nouveautes {
@@ -88,10 +123,73 @@ header {
 
   }
   .blu_ray {
-
+    height: 300px;
   }
   .figurines {
 
+  }
+}
+
+.products {
+  padding: 0 10%;
+  .add-to-cart {
+    background: url("images/bouton_acheter.png") no-repeat center;
+    width: 88px;
+    height: 26px;
+    display: block;
+    margin: auto;
+  }
+  li {
+    display: inline-block;
+    text-align: center;
+    margin-right: 150px;
+    margin-bottom: 30px;
+    &:nth-child(5), &:nth-child(10) {
+      margin-right: 0;
+    }
+    p {
+      margin-bottom: 5px;
+    }
+    a {
+      text-decoration: none;
+      color: #1766dc;
+      &:hover {
+        color: #da7b26;
+      }
+      img {
+        width: 130px;
+        height: 170px;
+      }
+
+    }
+  }
+}
+
+.woocommerce-breadcrumb {
+  margin-bottom: 30px;
+}
+
+.product {
+  .images {
+    display: inline-block;
+  }
+  .summary {
+    display: inline-block;
+  }
+}
+
+
+.woocommerce-ordering {
+  margin-bottom: 30px;
+}
+
+.woocommerce-pagination {
+  .page-numbers {
+    text-align: center;
+    padding: 0;
+    li {
+      display: inline-block;
+    }
   }
 }
 
