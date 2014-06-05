@@ -99,7 +99,10 @@ function manga_has_featured_posts() {
 function add_menu(){
     add_theme_support('menus');
 
-    register_nav_menu('header_nav', 'Menu header');
+    register_nav_menu('header_nav_left', 'Menu header left');
+    register_nav_menu('header_nav_right', 'Menu header right');
+    register_nav_menu('footer_nav_left', 'Menu footer left');
+    register_nav_menu('footer_nav_right', 'Menu footer right');
     register_nav_menu('ventes', 'Menu ventes');
 
 

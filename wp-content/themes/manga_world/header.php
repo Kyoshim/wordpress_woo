@@ -16,6 +16,14 @@
 </head>
 <body>
 <header>
+    <div class="main_menu container">
+        <div class="row">
+            <div class="col-md-5">
+                <?php wp_nav_menu(array(
+                    'theme_location'    => 'header_nav_left',
+                    'menu_class'        => 'main_menu_left',
+                    'container'         => false,
+                )); ?>
     <div class="row">
         <div class="col-md-offset-10 col-md-2 header_panier">
             <?php showCart(); ?>
@@ -24,12 +32,20 @@
             <div id="logo">
                 <img src="<?php bloginfo('template_directory'); ?>/images/logo.png" alt="" width="150px" height="124px"/>
             </div>
+            <div class="col-md-2 ">
+                <div id="logo">
+                    <a href="<?php echo site_url(); ?>"><img src="<?php bloginfo('template_directory'); ?>/images/logo.png" alt="" width="150px" height="124px"/></a>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <?php wp_nav_menu(array(
+                    'theme_location'    => 'header_nav_right',
+                    'menu_class'        => 'main_menu_right',
+                    'container'         => false,
+                )); ?>
+            </div>
         </div>
     </div>
-    <?php wp_nav_menu(array(
-        'theme_location'    => 'header_nav',
-        'menu_class'        => 'main_menu',
-        'container'         => false,
-    )); ?>
+
 
 </header>
