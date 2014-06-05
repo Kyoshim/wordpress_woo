@@ -24,6 +24,13 @@
                     'menu_class'        => 'main_menu_left',
                     'container'         => false,
                 )); ?>
+    <div class="row">
+        <div class="col-md-offset-10 col-md-2 header_panier">
+            <?php showCart(); ?>
+        </div>
+        <div class="col-md-offset-5">
+            <div id="logo">
+                <img src="<?php bloginfo('template_directory'); ?>/images/logo.png" alt="" width="150px" height="124px"/>
             </div>
             <div class="col-md-2 ">
                 <div id="logo">
