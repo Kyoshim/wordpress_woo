@@ -1,4 +1,6 @@
 .idea/
 
+.htaccess
+
 wp-config.php
 .idea/workspace.xml
