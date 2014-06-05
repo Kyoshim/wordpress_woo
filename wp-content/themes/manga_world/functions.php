@@ -109,3 +109,15 @@ add_action( 'after_setup_theme', 'add_menu' );
 //remove_action( 'woocommerce_before_shop_loop_item_title', 'woocommerce_show_product_loop_sale_flash', 10 );
 //add_action( 'woocommerce_before_shop_loop_item_title', 'woocommerce_show_product_loop_sale_flash', 9 );
 
+function showCart(){
+    global $woocommerce; ?>
+    <li><a class="cart-contents" href="<?php echo $woocommerce->cart->get_cart_url(); ?>" title="<?php _e('Ouvrir le panier', 'woothemes'); ?>">
+        <img src="<?php bloginfo('template_directory'); ?>/images/icone_panier.png" alt=""/>
+
+    <?php if($woocommerce->cart->cart_contents_count == 0){
+        echo 'Le panier est vide';
+    }else{
+        echo sprintf(_n('%d article', '%d articles', $woocommerce->cart->cart_contents_count, 'woothemes'), $woocommerce->cart->cart_contents_count);?> - <?php echo $woocommerce->cart->get_cart_total(); }?>
+    </a>
+    </li><?php
+}
