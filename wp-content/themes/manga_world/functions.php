@@ -114,13 +114,13 @@ add_action( 'after_setup_theme', 'add_menu' );
 
 function showCart(){
     global $woocommerce; ?>
-    <li><a class="cart-contents" href="<?php echo $woocommerce->cart->get_cart_url(); ?>" title="<?php _e('Ouvrir le panier', 'woothemes'); ?>">
+    <li><a class="cart-contents" href="<?php echo $woocommerce->cart->get_cart_url(); ?>" title="<?php _e('Ouvrir le panier', 'manga_world'); ?>">
         <img src="<?php bloginfo('template_directory'); ?>/images/icone_panier.png" alt=""/>
 
     <?php if($woocommerce->cart->cart_contents_count == 0){
         echo 'Le panier est vide';
     }else{
-        echo sprintf(_n('%d article', '%d articles', $woocommerce->cart->cart_contents_count, 'woothemes'), $woocommerce->cart->cart_contents_count);?> - <?php echo $woocommerce->cart->get_cart_total(); }?>
+        echo sprintf(_n('%d article', '%d articles', $woocommerce->cart->cart_contents_count, 'manga_world'), $woocommerce->cart->cart_contents_count);?> - <?php echo $woocommerce->cart->get_cart_total(); }?>
     </a>
     </li><?php
 }

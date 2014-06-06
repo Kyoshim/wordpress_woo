@@ -2,9 +2,9 @@
 
 header {
   background: url("./images/bannierewoo.jpg") 50% 0 no-repeat;
-  background-size: 100%;
   height: 330px;
   position: relative;
+  background-size: cover;
   margin-bottom: 40px;
   h1 {
     margin-top: 30px;
@@ -15,13 +15,13 @@ header {
 
   .header_panier {
     position: absolute;
-    margin-top: 50px;
-    height: 50px;
     background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px 0;
+    top: 20px;
+    left: 0px;
     text-align: center;
-    padding-top: 10px;
     li{
-      display:block;
+      display: inline-block;
     }
 
     a{
@@ -162,7 +162,7 @@ header {
   li {
     display: inline-block;
     text-align: center;
-    margin-right: 150px;
+    margin-right: 146px;
     margin-bottom: 30px;
     &:nth-child(5), &:nth-child(10) {
       margin-right: 0;
@@ -180,21 +180,65 @@ header {
         width: 130px;
         height: 170px;
       }
-
     }
   }
 }
 
 .woocommerce-breadcrumb {
   margin-bottom: 30px;
+  margin-left: 10%;
+}
+
+.type-product {
+
 }
 
 .product {
   .images {
     display: inline-block;
+    margin-right: 30px;
   }
   .summary {
     display: inline-block;
+    .product_title {
+      margin-top: 0;
+    }
+  }
+}
+
+.simple_product {
+  padding: 0 10%;
+  .related {
+    padding: 0;
+  }
+}
+
+.coupon {
+  margin-left: 30px;
+}
+.promo_commande {
+  margin-left: 30px;
+}
+
+.woocommerce {
+  position: relative;
+  form {
+    margin-left: 30px;
+  }
+  .cart_totals {
+    margin-bottom: 20px;
+  }
+  .shop_table {
+    display: inline-block;
+
+  }
+  table {
+    &:last-child {
+      display: inline-block;
+      top: 120px;
+      left: 530px;
+      position: absolute;
+    }
   }
 }
 

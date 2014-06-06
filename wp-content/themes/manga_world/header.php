@@ -16,6 +16,13 @@
 </head>
 <body>
 <header>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-offset-10 col-md-2 header_panier">
+                <?php showCart(); ?>
+            </div>
+        </div>
+    </div>
     <div class="main_menu container">
         <div class="row">
             <div class="col-md-5">
@@ -24,14 +31,8 @@
                     'menu_class'        => 'main_menu_left',
                     'container'         => false,
                 )); ?>
-    <div class="row">
-        <div class="col-md-offset-10 col-md-2 header_panier">
-            <?php showCart(); ?>
-        </div>
-        <div class="col-md-offset-5">
-            <div id="logo">
-                <img src="<?php bloginfo('template_directory'); ?>/images/logo.png" alt="" width="150px" height="124px"/>
             </div>
+        <!--<div class="col-md-offset-5">-->
             <div class="col-md-2 ">
                 <div id="logo">
                     <a href="<?php echo site_url(); ?>"><img src="<?php bloginfo('template_directory'); ?>/images/logo.png" alt="" width="150px" height="124px"/></a>
@@ -44,8 +45,8 @@
                     'container'         => false,
                 )); ?>
             </div>
-        </div>
-    </div>
+        <!--</div>-->
+
 
 
 </header>
