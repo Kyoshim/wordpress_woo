@@ -257,6 +257,27 @@ header {
   }
 }
 
+.member {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #87daf0 !important;
+  &:hover{
+    background-color: #d7ffff;
+    /* Firefox */
+    -moz-transition: all 1s ease-in;
+    /* WebKit */
+    -webkit-transition: all 1s ease-in;
+    /* Opera */
+    -o-transition: all 1s ease-in;
+    /* Standard */
+    transition: all 1s ease-in;
+  }
+  p {
+    display: inline-block;
+
+  }
+}
+
 footer {
   background: #37b2f0;
   padding-top: 30px;

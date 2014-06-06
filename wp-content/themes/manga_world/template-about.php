@@ -14,6 +14,7 @@ Template Name: about-us
                 if( $members_loop->have_posts() ):
                     while( $members_loop->have_posts() ): $members_loop->the_post();?>
                         <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+                            <?php the_post_thumbnail();?>
                             <?php the_title(); // Le titre du livre cette fois ?>
                             <?php the_content(); // le contenu du livre (champ wysiwyg principal) ?>
                             <?php edit_post_link(); // le boutons d'edition admin ?>
