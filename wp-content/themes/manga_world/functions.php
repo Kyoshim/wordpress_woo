@@ -1,4 +1,8 @@
 <?php
+
+//define( 'ACF_LITE' , true );
+include_once('plugin/advanced-custom-fields/acf.php' );
+
 add_theme_support( 'post-thumbnails' );
 
 add_action( 'init', 'codex_book_init' );
@@ -131,4 +135,91 @@ function showCart(){
 //remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_excerpt', 20 );
 remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_meta', 40 );
 //remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_sharing', 50 );
+
+
+if(function_exists("register_field_group"))
+{
+    register_field_group(array (
+        'id' => 'acf_home-content',
+        'title' => 'Home content',
+        'fields' => array (
+            array (
+                'key' => 'field_538d7ffa8f531',
+                'label' => 'Title nouveautés',
+                'name' => 'title_nouveautes',
+                'type' => 'text',
+                'default_value' => '',
+                'placeholder' => '',
+                'prepend' => '',
+                'append' => '',
+                'formatting' => 'html',
+                'maxlength' => '',
+            ),
+            array (
+                'key' => 'field_538d995412baf',
+                'label' => 'Title dvd',
+                'name' => 'title_dvd',
+                'type' => 'text',
+                'default_value' => '',
+                'placeholder' => '',
+                'prepend' => '',
+                'append' => '',
+                'formatting' => 'html',
+                'maxlength' => '',
+            ),
+            array (
+                'key' => 'field_538d9a7e12bb0',
+                'label' => 'Title blu-ray',
+                'name' => 'title_blu_ray',
+                'type' => 'text',
+                'default_value' => '',
+                'placeholder' => '',
+                'prepend' => '',
+                'append' => '',
+                'formatting' => 'html',
+                'maxlength' => '',
+            ),
+            array (
+                'key' => 'field_538da2de12bb1',
+                'label' => 'Title figurines',
+                'name' => 'title_figurines',
+                'type' => 'text',
+                'default_value' => '',
+                'placeholder' => '',
+                'prepend' => '',
+                'append' => '',
+                'formatting' => 'html',
+                'maxlength' => '',
+            ),
+            array (
+                'key' => 'field_538d7ffc8f532',
+                'label' => 'Logo',
+                'name' => 'logo',
+                'type' => 'image',
+                'save_format' => 'url',
+                'preview_size' => 'thumbnail',
+                'library' => 'all',
+            ),
+        ),
+        'location' => array (
+            array (
+                array (
+                    'param' => 'page',
+                    'operator' => '==',
+                    'value' => '8',
+                    'order_no' => 0,
+                    'group_no' => 0,
+                ),
+            ),
+        ),
+        'options' => array (
+            'position' => 'acf_after_title',
+            'layout' => 'no_box',
+            'hide_on_screen' => array (
+            ),
+        ),
+        'menu_order' => 0,
+    ));
+}
+
 
